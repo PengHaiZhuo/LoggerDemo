@@ -53,5 +53,10 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             Logger.e(e, "抛出异常");
         }
+        /**
+         * 打印的TAG:全局设置的TAG-自定义tag
+         * 举个例子本demo打印的TAG:LoggerDemo-LBW
+         */
+        Logger.log(Logger.ERROR,"LBW","NB",null);
     }
 }
